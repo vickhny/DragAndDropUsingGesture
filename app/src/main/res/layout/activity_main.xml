@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chat_bg"
+    android:keepScreenOn="true">
+
+    <ImageView
+        android:id="@+id/trash"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/open"
+        android:padding="5dp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_chatBot"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/bn_avatar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/speaking" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
